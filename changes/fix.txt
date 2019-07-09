@@ -1,0 +1,56 @@
+Things that need fixing/changes:
+
+- Add scroll to top button
+- Fix and optimize the mobile navbar/header
+- Swap Documents with something else, maybe statistics (?)
+- Fix error messages for server sided form validation
+
+--------------------------------------------------------------------
+
+Settings:
+
+	- Profile:
+		- Add country
+		- Add language
+	- Bills:
+		- General Tab
+			- Auto monthly goal
+			- Optional goal for the month
+			- Currency (Dollar/Pound/Euro)
+			- Currency symbol location (l/r)
+			- Display currency symbol or show currency abbrev? (USD/GBP/EUR)
+			- VATs
+			- Thousandth/Decimal seperator (?)
+		- PDF Tab
+			- Download PDF? Yes/No (if no, stream in new window)
+			- Locked before/after product texts
+
+--------------------------------------------------------------------
+
+Statistics:
+
+- Current Month Tab:
+	- Current month's goal (Goal, income to go, days left, small graphic/diagram (?))
+	- Current month's bills statistics (Amount of bills, income, vat, net income, net average)
+	- Line diagram displaying the difference in profits per day of the current month (?)
+
+- Last Month Tab:
+	- Last month's goal (Goal, income made, reached/not reached, small graphic/diagram (?))
+	- Last month's bills statistics (Amount of bills, income, vat, net income, net average)
+	- Line diagram displaying the difference in profits per day of the last month (?)
+
+- Past 3, 6, 12 Months Tab:
+	- Past 3, 6, 12 months' goals in total (as one goal) (Goal, income made, reached/not reached, small graphic/diagram (?))
+	- Past 3, 6, 12 months' bills statistics in total (as one statistic) (Amount of bills, income, vat, net income, net average)
+	- Diagram displaying the difference in profits per month/every 3 months (only if months >= 9)
+
+- Total Tab:
+	- All goals in total (as one goal) (Goal, income to go, reached/not reached, small graphic/diagram (?))
+	- All bills statistics in total (as one statistic) (Amount of bills, income, vat, net income, net average)
+	- Diagram displaying the difference in profits every 3 months
+
+- Optional Tab (Only if goals have been set at all and there are more than 3 months of data):
+	- Choose a month/range of months
+	- Goal of the chosen month/months (Goal, income to go, reached/not reached, small graphic/diagram (?))
+	- Bills statistics of the chosen month/months (Amount of bills, income, vat, net income, net average)
+	- Diagram displaying the difference in profits per month/every 3 months (Only if months >= 9)
